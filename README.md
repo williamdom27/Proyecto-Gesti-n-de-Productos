@@ -1,44 +1,66 @@
-Funcionalidades Implementadas:
+#Sistema de Gestión de Productos en Python
 
-Registro, búsqueda, listado y eliminación de productos.
+Proyecto desarrollado en Python que simula la administración de productos mediante consola, aplicando buenas prácticas de programación modular, validación de datos y estructuras eficientes.
 
--Validación de entradas.
--Menú interactivo con control de flujo.
--Prevención de duplicados mediante set.
--Uso de estructuras inmutables (tuple).
--Función recursiva para cálculos.
+---
 
-Estructuras de Datos Usadas:
+## Funcionalidades Implementadas
 
--Tipo	Uso
--list	Almacenar productos
--dict	Representar productos
--tuple	Roles del sistema
--set	Categorías únicas
+- Registro, búsqueda, listado y eliminación de productos
+- Validación de entradas
+- Menú interactivo con control de flujo
+- Prevención de duplicados mediante `set`
+- Uso de estructuras inmutables (`tuple`)
+- Función recursiva para cálculos auxiliares
 
-Validación Funcional:
+---
 
-El sistema evita precios inválidos
+## Estructuras de Datos Usadas
 
--Controla errores de menú.
--Maneja búsquedas inexistentes.
--Flujo controlado con break y continue.
+| Tipo  | Uso |
+|-------|-------|
+| list  | Almacenar productos |
+| dict  | Representar productos |
+| tuple | Roles del sistema |
+| set   | Categorías únicas |
 
-Performance:
+---
 
--Búsquedas simples optimizadas.
--Uso de estructuras adecuadas.
--Código reutilizable y mantenible.
+## Validación Funcional
 
-Tecnologías
+- Evita precios inválidos
+- Controla errores de menú
+- Maneja búsquedas inexistentes
+- Flujo controlado con `break` y `continue`
 
-Python 3.
-Visual Studio Code.
-Programación modular.
+---
 
-Mejoras futuras:
+## Performance
 
--Persistencia con archivos JSON.
--Interfaz gráfica.
-Manejo de excepciones avanzado.
-Pruebas unitarias.
+- Búsquedas optimizadas
+- Uso de estructuras adecuadas
+- Código reutilizable y mantenible
+
+---
+
+## Tecnologías
+
+- Python 3
+- Visual Studio Code
+- Programación modular
+
+---
+
+## Mejoras Futuras
+
+- Persistencia con JSON
+- Interfaz gráfica
+- Manejo de excepciones avanzado
+- Pruebas unitarias
+
+---
+
+## Cómo ejecutar
+
+```bash
+python src/main.py
